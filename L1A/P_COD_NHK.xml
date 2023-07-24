@@ -1,0 +1,528 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xtce:SpaceSystem xmlns:xtce="http://www.omg.org/space" nsmap="{'xtce': 'http://www.omg.org/space'}" name="P_COD_NHK">
+	<xtce:Header date="2023-06-20" version="1.0" author="Gabriel Moraga" />
+	<xtce:TelemetryMetaData>
+		<xtce:ParameterTypeSet>
+			<xtce:IntegerParameterType name="uint0" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="0" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint1" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="1" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint2" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="2" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint3" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="3" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint4" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="4" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint5" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="5" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint6" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="6" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint7" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="7" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint8" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="8" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint9" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="9" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint10" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="10" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint11" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="11" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint12" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="12" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint13" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="13" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint14" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="14" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint15" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="15" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint16" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="16" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint17" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="17" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint18" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="18" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint19" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="19" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint20" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="20" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint21" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="21" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint22" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="22" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint23" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="23" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint24" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="24" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint25" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="25" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint26" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="26" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint27" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="27" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint28" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="28" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint29" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="29" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint30" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="30" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint31" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="31" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint32" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="32" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+		</xtce:ParameterTypeSet>
+		<xtce:ParameterSet>
+			<xtce:Parameter name="VERSION" parameterTypeRef="uint3">
+				<xtce:LongDescription>CCSDS Packet Version Number (always 0)</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="TYPE" parameterTypeRef="uint1">
+				<xtce:LongDescription>CCSDS Packet Type Indicator (0=telemetry)</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="SEC_HDR_FLG" parameterTypeRef="uint1">
+				<xtce:LongDescription>CCSDS Packet Secondary Header Flag (always 1)</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="PKT_APID" parameterTypeRef="uint11">
+				<xtce:LongDescription>CCSDS Packet Application Process ID</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="SEG_FLGS" parameterTypeRef="uint2">
+				<xtce:LongDescription>CCSDS Packet Grouping Flags (3=not part of group)</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="SRC_SEQ_CTR" parameterTypeRef="uint14">
+				<xtce:LongDescription>CCSDS Packet Sequence Count (increments with each new packet)</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="PKT_LEN" parameterTypeRef="uint16">
+				<xtce:LongDescription>CCSDS Packet Length (number of bytes after Packet length minus 1)</xtce:LongDescription>
+			</xtce:Parameter>
+		</xtce:ParameterSet>
+		<xtce:ContainerSet>
+			<xtce:SequenceContainer name="CCSDSPacket">
+				<xtce:EntryList>
+					<xtce:ParameterRefEntry parameterRef="VERSION" />
+					<xtce:ParameterRefEntry parameterRef="TYPE" />
+					<xtce:ParameterRefEntry parameterRef="SEC_HDR_FLG" />
+					<xtce:ParameterRefEntry parameterRef="PKT_APID" />
+					<xtce:ParameterRefEntry parameterRef="SEG_FLGS" />
+					<xtce:ParameterRefEntry parameterRef="SRC_SEQ_CTR" />
+					<xtce:ParameterRefEntry parameterRef="PKT_LEN" />
+				</xtce:EntryList>
+			</xtce:SequenceContainer>
+		</xtce:ContainerSet>
+		<xtce:ParameterSet>
+			<xtce:Parameter name="Packet_Version" sequence="8" startByte="10" startBitInByte="0" startBit="80" lengthInBits="16" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="14.0">
+				<xtce:LongDescription>Packet version - this will be incremented each time the format of the packet changes.</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="CmdExe" sequence="9" startByte="12" startBitInByte="0" startBit="96" lengthInBits="8" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="6.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="CmdRjct" sequence="10" startByte="13" startBitInByte="0" startBit="104" lengthInBits="8" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="7.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Last_Opcode" sequence="11" startByte="14" startBitInByte="0" startBit="112" lengthInBits="16" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Mode" sequence="12" startByte="16" startBitInByte="0" startBit="128" lengthInBits="4" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="4.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="MemOp_State" sequence="13" startByte="16" startBitInByte="4" startBit="132" lengthInBits="4" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="MemDump_State" sequence="14" startByte="17" startBitInByte="0" startBit="136" lengthInBits="4" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="13.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="ITF_Err_Cnt" sequence="15" startByte="17" startBitInByte="4" startBit="140" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spin_Cnt" sequence="16" startByte="17" startBitInByte="6" startBit="142" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="8.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Missed_PPS_Cnt" sequence="17" startByte="18" startBitInByte="0" startBit="144" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="14.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="WDOG_Timeout_Cnt" sequence="18" startByte="18" startBitInByte="2" startBit="146" lengthInBits="4" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="16.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="HV_Disable_Plug" sequence="19" startByte="18" startBitInByte="6" startBit="150" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="15.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="HV_Safe_Plug" sequence="20" startByte="18" startBitInByte="7" startBit="151" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="12.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Cmd_FIFO_Overrun_Cnt" sequence="21" startByte="19" startBitInByte="0" startBit="152" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="20.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Cmd_FIFO_Underrun_Cnt" sequence="22" startByte="19" startBitInByte="2" startBit="154" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="21.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Cmd_FIFO_Parity_Err_Cnt" sequence="23" startByte="19" startBitInByte="4" startBit="156" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="23.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Cmd_FIFO_Frame_Err_Cnt" sequence="24" startByte="19" startBitInByte="6" startBit="158" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="22.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Tlm_FIFO_Overrun_Cnt" sequence="25" startByte="20" startBitInByte="0" startBit="160" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="20.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spin_Bin_Period" sequence="26" startByte="20" startBitInByte="2" startBit="162" lengthInBits="14" dataType="UINT" convertAs="ANALOG" units="Sec" source="-*-" mnemonicLength="15.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spin_Period" sequence="27" startByte="22" startBitInByte="0" startBit="176" lengthInBits="16" dataType="UINT" convertAs="ANALOG" units="Sec" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spin_Period_Timer" sequence="28" startByte="24" startBitInByte="0" startBit="192" lengthInBits="16" dataType="UINT" convertAs="ANALOG" units="Sec" source="-*-" mnemonicLength="17.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spin_Timestamp_Seconds" sequence="29" startByte="26" startBitInByte="0" startBit="208" lengthInBits="32" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="22.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spin_Timestamp_SubSeconds" sequence="30" startByte="30" startBitInByte="0" startBit="240" lengthInBits="20" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="25.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spin_Bin_Index" sequence="31" startByte="32" startBitInByte="4" startBit="260" lengthInBits="9" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="14.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Optics_HV_Cmd_Err_Cnt" sequence="32" startByte="33" startBitInByte="5" startBit="269" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="21.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spare_1" sequence="33" startByte="33" startBitInByte="7" startBit="271" lengthInBits="1" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="7.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Optics_HV_Arm_Err_Cnt" sequence="34" startByte="34" startBitInByte="0" startBit="272" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="21.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Optics_HV_Master_Enable" sequence="35" startByte="34" startBitInByte="2" startBit="274" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="23.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Optics_HV_n15KV_Enable" sequence="36" startByte="34" startBitInByte="3" startBit="275" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="22.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Optics_HV_ESA_B_Enable" sequence="37" startByte="34" startBitInByte="4" startBit="276" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="22.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spare_2" sequence="38" startByte="34" startBitInByte="5" startBit="277" lengthInBits="1" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="7.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Optics_HV_ESA_A_Enable" sequence="39" startByte="34" startBitInByte="6" startBit="278" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="22.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spare_3" sequence="40" startByte="34" startBitInByte="7" startBit="279" lengthInBits="1" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="7.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_Cmd_Err_Cnt" sequence="41" startByte="35" startBitInByte="0" startBit="280" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="21.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_Arm_Err_Cnt" sequence="42" startByte="35" startBitInByte="2" startBit="282" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="21.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_Master_Enable" sequence="43" startByte="35" startBitInByte="4" startBit="284" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="23.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_APD_Bias_Enable" sequence="44" startByte="35" startBitInByte="5" startBit="285" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="25.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_p6KV_Enable" sequence="45" startByte="35" startBitInByte="6" startBit="286" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="21.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_Stop_MCP_Enable" sequence="46" startByte="35" startBitInByte="7" startBit="287" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="25.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_Start_MCP_Enable" sequence="47" startByte="36" startBitInByte="0" startBit="288" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="26.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spare_4" sequence="48" startByte="36" startBitInByte="1" startBit="289" lengthInBits="3" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="7.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Optics_HV_DAC_ESA_A" sequence="49" startByte="36" startBitInByte="4" startBit="292" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="19.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Optics_HV_DAC_ESA_B" sequence="50" startByte="38" startBitInByte="0" startBit="304" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="19.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Optics_HV_DAC_IONBULK" sequence="51" startByte="39" startBitInByte="4" startBit="316" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="21.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_DAC_SSDO" sequence="52" startByte="41" startBitInByte="0" startBit="328" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="18.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_DAC_SSDB" sequence="53" startByte="42" startBitInByte="4" startBit="340" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="18.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_DAC_APDB" sequence="54" startByte="44" startBitInByte="0" startBit="352" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="18.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_DAC_APDB2" sequence="55" startByte="45" startBitInByte="4" startBit="364" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="19.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_DAC_Start_MCP" sequence="56" startByte="47" startBitInByte="0" startBit="376" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="23.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_DAC_Stop_MCP" sequence="57" startByte="48" startBitInByte="4" startBit="388" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="22.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Sensor_HV_DAC_Stop_Optics_Grid" sequence="58" startByte="50" startBitInByte="0" startBit="400" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="30.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="SBULK_VMON" sequence="59" startByte="51" startBitInByte="4" startBit="412" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="10.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="SSDO_VMON" sequence="60" startByte="53" startBitInByte="0" startBit="424" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="9.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="SSDB_VMON" sequence="61" startByte="54" startBitInByte="4" startBit="436" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="9.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="APDB1_VMON" sequence="62" startByte="56" startBitInByte="0" startBit="448" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="10.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="APDB2_VMON" sequence="63" startByte="57" startBitInByte="4" startBit="460" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="10.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="IOBULK_VMON" sequence="64" startByte="59" startBitInByte="0" startBit="472" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="ESAA_HI_VMON" sequence="65" startByte="60" startBitInByte="4" startBit="484" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="12.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="ESAA_LO_VMON" sequence="66" startByte="62" startBitInByte="0" startBit="496" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="12.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="STRMCP_VMON" sequence="67" startByte="63" startBitInByte="4" startBit="508" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="STPMCP_VMON" sequence="68" startByte="65" startBitInByte="0" startBit="520" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="STPOG_VMON" sequence="69" startByte="66" startBitInByte="4" startBit="532" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="10.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="APDB1_IMON" sequence="70" startByte="68" startBitInByte="0" startBit="544" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="uA" source="-*-" mnemonicLength="10.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="ESAB_HI_VMON" sequence="71" startByte="69" startBitInByte="4" startBit="556" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="12.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="ESAB_LO_VMON" sequence="72" startByte="71" startBitInByte="0" startBit="568" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="12.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="APDB2_IMON" sequence="73" startByte="72" startBitInByte="4" startBit="580" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="uA" source="-*-" mnemonicLength="10.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="SSDB_IMON" sequence="74" startByte="74" startBitInByte="0" startBit="592" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="uA" source="-*-" mnemonicLength="9.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="STPMCP_IMON" sequence="75" startByte="75" startBitInByte="4" startBit="604" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="uA" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="IOBULK_IMON" sequence="76" startByte="77" startBitInByte="0" startBit="616" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="uA" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="STRMCP_IMON" sequence="77" startByte="78" startBitInByte="4" startBit="628" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="uA" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="MDM25P_14_T" sequence="78" startByte="80" startBitInByte="0" startBit="640" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="C" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="MDM25P_15_T" sequence="79" startByte="81" startBitInByte="4" startBit="652" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="C" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="MDM25P_16_T" sequence="80" startByte="83" startBitInByte="0" startBit="664" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="C" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="MDM51P_27_T" sequence="81" startByte="84" startBitInByte="4" startBit="676" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="C" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="IO_HVPS_T" sequence="82" startByte="86" startBitInByte="0" startBit="688" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="C" source="-*-" mnemonicLength="9.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_12V_T" sequence="83" startByte="87" startBitInByte="4" startBit="700" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="C" source="-*-" mnemonicLength="10.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_5V_T" sequence="84" startByte="89" startBitInByte="0" startBit="712" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="C" source="-*-" mnemonicLength="9.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_3p3V_T" sequence="85" startByte="90" startBitInByte="4" startBit="724" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="C" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_3p3V" sequence="86" startByte="92" startBitInByte="0" startBit="736" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="9.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_5V" sequence="87" startByte="93" startBitInByte="4" startBit="748" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="7.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_n5V" sequence="88" startByte="95" startBitInByte="0" startBit="760" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="8.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_12V" sequence="89" startByte="96" startBitInByte="4" startBit="772" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="8.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_n12V" sequence="90" startByte="98" startBitInByte="0" startBit="784" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="9.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_3p3V_I" sequence="91" startByte="99" startBitInByte="4" startBit="796" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="A" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_5V_I" sequence="92" startByte="101" startBitInByte="0" startBit="808" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="A" source="-*-" mnemonicLength="9.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_n5V_I" sequence="93" startByte="102" startBitInByte="4" startBit="820" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="A" source="-*-" mnemonicLength="10.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_12V_I" sequence="94" startByte="104" startBitInByte="0" startBit="832" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="A" source="-*-" mnemonicLength="10.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="LVPS_n12V_I" sequence="95" startByte="105" startBitInByte="4" startBit="844" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="A" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="CDH_1p5V" sequence="96" startByte="107" startBitInByte="0" startBit="856" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="8.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="CDH_1p8V" sequence="97" startByte="108" startBitInByte="4" startBit="868" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="8.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="CDH_3p3V" sequence="98" startByte="110" startBitInByte="0" startBit="880" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="8.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="CDH_12V" sequence="99" startByte="111" startBitInByte="4" startBit="892" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="7.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="CDH_n12V" sequence="100" startByte="113" startBitInByte="0" startBit="904" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="8.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="CDH_5V" sequence="101" startByte="114" startBitInByte="4" startBit="916" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="6.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="CDH_5V_ADC" sequence="102" startByte="116" startBitInByte="0" startBit="928" lengthInBits="12" dataType="UINT" convertAs="ANALOG" units="V" source="-*-" mnemonicLength="10.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="TBD_HVPS_1_IF_Err_Cnt" sequence="103" startByte="117" startBitInByte="4" startBit="940" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="21.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="TBD_HVPS_2_IF_Err_Cnt" sequence="104" startByte="117" startBitInByte="6" startBit="942" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="21.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="TBD_FEE_1_IF_Err_Cnt" sequence="105" startByte="118" startBitInByte="0" startBit="944" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="20.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="TBD_FEE_2_IF_Err_Cnt" sequence="106" startByte="118" startBitInByte="2" startBit="946" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="20.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="TBD_Macro_Status" sequence="107" startByte="118" startBitInByte="4" startBit="948" lengthInBits="28" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="16.0">
+				<xtce:LongDescription>-*-</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="FDC_Trigger_Cnt_FSW" sequence="108" startByte="122" startBitInByte="0" startBit="976" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="19.0">
+				<xtce:LongDescription>Indicates whether any CATEGORY 1 limits have triggered.
+
+  2 bits: 0: No triggers; 1: One trigger, 2: Two triggers, 3: More than two triggers</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="FDC_Trigger_Cnt_HVPS" sequence="109" startByte="122" startBitInByte="2" startBit="978" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="20.0">
+				<xtce:LongDescription>Indicates whether any CATEGORY 2 limits have triggered</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="FDC_Trigger_Cnt_CDH" sequence="110" startByte="122" startBitInByte="4" startBit="980" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="19.0">
+				<xtce:LongDescription>Indicates whether any CATEGORY 3 limits have triggered</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="FDC_Trigger_Cnt_FEE" sequence="111" startByte="122" startBitInByte="6" startBit="982" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="19.0">
+				<xtce:LongDescription>Indicates whether any CATEGORY 4 limits have triggered</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="FDC_Trigger_Cnt_SPARE1" sequence="112" startByte="123" startBitInByte="0" startBit="984" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="22.0">
+				<xtce:LongDescription>Indicates whether any CATEGORY 5 limits have triggered</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="FDC_Trigger_Cnt_SPARE2" sequence="113" startByte="123" startBitInByte="2" startBit="986" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="22.0">
+				<xtce:LongDescription>Indicates whether any CATEGORY 6 limits have triggered</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="FDC_Trigger_Cnt_SPARE3" sequence="114" startByte="123" startBitInByte="4" startBit="988" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="22.0">
+				<xtce:LongDescription>Indicates whether any CATEGORY 7 limits have triggered</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="FDC_Trigger_Cnt_SPARE4" sequence="115" startByte="123" startBitInByte="6" startBit="990" lengthInBits="2" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="22.0">
+				<xtce:LongDescription>Indicates whether any CATEGORY 8 limits have triggered</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="FDC_Last_Trigger_MinMax" sequence="116" startByte="124" startBitInByte="0" startBit="992" lengthInBits="1" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="23.0">
+				<xtce:LongDescription>Indicates whether the most recent trigger was a minimum or maximum limit</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="FDC_Last_Trigger_ID" sequence="117" startByte="124" startBitInByte="1" startBit="993" lengthInBits="15" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="19.0">
+				<xtce:LongDescription>Indicates the ID of the most recent FDC trigger</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="FDC_Last_Trigger_Action" sequence="118" startByte="126" startBitInByte="0" startBit="1008" lengthInBits="8" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="23.0">
+				<xtce:LongDescription>Indicates the action that was taken for the most recent FDC trigger</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Round_Robin_Index" sequence="119" startByte="127" startBitInByte="0" startBit="1016" lengthInBits="8" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="17.0">
+				<xtce:LongDescription>Current index for the Round Robin parameter reporting.  The Round Robin mechanism reports one value from the Parameter Table each time this packet is generated.</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Round_Robin_Value" sequence="120" startByte="128" startBitInByte="0" startBit="1024" lengthInBits="32" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="17.0">
+				<xtce:LongDescription>Parameter value corresponding to the current Round_Robin_Index value.</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Heater_Control_State" sequence="121" startByte="132" startBitInByte="0" startBit="1056" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="20.0">
+				<xtce:LongDescription>Indicates whether FSW control of the operational heater is enabled</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Heater_Output_State" sequence="122" startByte="132" startBitInByte="1" startBit="1057" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="19.0">
+				<xtce:LongDescription>Indicates the current state of the physical heater output</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spare_5" sequence="123" startByte="132" startBitInByte="2" startBit="1058" lengthInBits="14" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="7.0">
+				<xtce:LongDescription>Spare for alignment</xtce:LongDescription>
+			</xtce:Parameter>
+		</xtce:ParameterSet>
+	</xtce:TelemetryMetaData>
+</xtce:SpaceSystem>
