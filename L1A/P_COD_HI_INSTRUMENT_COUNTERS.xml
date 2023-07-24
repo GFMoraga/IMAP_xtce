@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xtce:SpaceSystem xmlns:xtce="http://www.omg.org/space" nsmap="{'xtce': 'http://www.omg.org/space'}" name="P_COD_HI_INSTRUMENT_COUNTERS">
+	<xtce:Header date="2023-07-20" version="1.0" author="Gabriel Moraga" />
+	<xtce:TelemetryMetaData>
+		<xtce:ParameterTypeSet>
+			<xtce:IntegerParameterType name="uint0" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="0" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint1" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="1" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint2" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="2" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint3" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="3" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint4" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="4" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint5" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="5" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint6" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="6" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint7" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="7" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint8" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="8" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint9" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="9" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint10" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="10" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint11" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="11" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint12" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="12" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint13" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="13" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint14" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="14" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint15" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="15" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint16" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="16" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint17" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="17" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint18" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="18" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint19" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="19" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint20" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="20" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint21" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="21" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint22" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="22" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint23" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="23" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint24" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="24" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint25" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="25" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint26" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="26" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint27" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="27" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint28" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="28" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint29" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="29" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint30" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="30" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint31" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="31" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+			<xtce:IntegerParameterType name="uint32" signed="false">
+				<xtce:IntegerDataEncoding sizeInBits="32" encoding="unsigned" />
+				<xtce:UnitSet />
+			</xtce:IntegerParameterType>
+		</xtce:ParameterTypeSet>
+		<xtce:ParameterSet>
+			<xtce:Parameter name="VERSION" parameterTypeRef="uint3">
+				<xtce:LongDescription>CCSDS Packet Version Number (always 0)</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="TYPE" parameterTypeRef="uint1">
+				<xtce:LongDescription>CCSDS Packet Type Indicator (0=telemetry)</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="SEC_HDR_FLG" parameterTypeRef="uint1">
+				<xtce:LongDescription>CCSDS Packet Secondary Header Flag (always 1)</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="PKT_APID" parameterTypeRef="uint11">
+				<xtce:LongDescription>CCSDS Packet Application Process ID</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="SEG_FLGS" parameterTypeRef="uint2">
+				<xtce:LongDescription>CCSDS Packet Grouping Flags (3=not part of group)</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="SRC_SEQ_CTR" parameterTypeRef="uint14">
+				<xtce:LongDescription>CCSDS Packet Sequence Count (increments with each new packet)</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="PKT_LEN" parameterTypeRef="uint16">
+				<xtce:LongDescription>CCSDS Packet Length (number of bytes after Packet length minus 1)</xtce:LongDescription>
+			</xtce:Parameter>
+		</xtce:ParameterSet>
+		<xtce:ContainerSet>
+			<xtce:SequenceContainer name="CCSDSPacket">
+				<xtce:EntryList>
+					<xtce:ParameterRefEntry parameterRef="VERSION" />
+					<xtce:ParameterRefEntry parameterRef="TYPE" />
+					<xtce:ParameterRefEntry parameterRef="SEC_HDR_FLG" />
+					<xtce:ParameterRefEntry parameterRef="PKT_APID" />
+					<xtce:ParameterRefEntry parameterRef="SEG_FLGS" />
+					<xtce:ParameterRefEntry parameterRef="SRC_SEQ_CTR" />
+					<xtce:ParameterRefEntry parameterRef="PKT_LEN" />
+				</xtce:EntryList>
+			</xtce:SequenceContainer>
+		</xtce:ContainerSet>
+		<xtce:ParameterSet>
+			<xtce:Parameter name="Packet_Version" sequence="8" startByte="10" startBitInByte="0" startBit="80" lengthInBits="16" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="14.0">
+				<xtce:LongDescription>Packet version - this will be incremented each time the format of the packet changes.</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spin_Period" sequence="9" startByte="12" startBitInByte="0" startBit="96" lengthInBits="16" dataType="UINT" convertAs="ANALOG" units="Sec" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>Spin period reported by the Spacecraft in the Time and Status message.  Reported period is the period that was active when the 16-spin acquisition cycle started.</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Acq_Start_Seconds" sequence="10" startByte="14" startBitInByte="0" startBit="112" lengthInBits="32" dataType="UINT" convertAs="NONE" units="Sec" source="-*-" mnemonicLength="17.0">
+				<xtce:LongDescription>Full-seconds portion of the time at which the 16-spin cycle started</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Acq_Start_Subseconds" sequence="11" startByte="18" startBitInByte="0" startBit="144" lengthInBits="20" dataType="UINT" convertAs="NONE" units="uS" source="-*-" mnemonicLength="20.0">
+				<xtce:LongDescription>Sub-seconds portion of the time at which the 16-spin cycle started (microseconds)</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Spare_00" sequence="12" startByte="20" startBitInByte="4" startBit="164" lengthInBits="12" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="8.0">
+				<xtce:LongDescription>Spare for alignment</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Table_ID" sequence="13" startByte="22" startBitInByte="0" startBit="176" lengthInBits="32" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="8.0">
+				<xtce:LongDescription>Unique ID assigned to a specific table configuration.  This field is used to link the overall acquisition and processing settings to a specific table configuration.</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Plan_ID" sequence="14" startByte="26" startBitInByte="0" startBit="208" lengthInBits="16" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="7.0">
+				<xtce:LongDescription>Plan table that was in use</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Plan_Step" sequence="15" startByte="28" startBitInByte="0" startBit="224" lengthInBits="4" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="9.0">
+				<xtce:LongDescription>Plan step that was active when this data was acquired and processed.</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="View_ID" sequence="16" startByte="28" startBitInByte="4" startBit="228" lengthInBits="4" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="7.0">
+				<xtce:LongDescription>View ID provides information about how data was collapsed and/or compressed.</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="RGFO_Half_Spin" sequence="17" startByte="29" startBitInByte="0" startBit="232" lengthInBits="6" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="14.0">
+				<xtce:LongDescription>N/A for CoDICE-Hi; included in order to maintain common packet format</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="NSO_Half_Spin" sequence="18" startByte="29" startBitInByte="6" startBit="238" lengthInBits="6" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="13.0">
+				<xtce:LongDescription>N/A for CoDICE-Hi; included in order to maintain common packet format</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Bias_Gain_Mode" sequence="19" startByte="30" startBitInByte="4" startBit="244" lengthInBits="1" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="14.0">
+				<xtce:LongDescription>N/A for CoDICE-Hi; included in order to maintain common packet format</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Suspect" sequence="20" startByte="30" startBitInByte="5" startBit="245" lengthInBits="1" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="7.0">
+				<xtce:LongDescription>Indicates that there was some error detected during acquisition or processing of the data.  Errors could include corrupted acquisition memory (i.e. EDAC errors), timing violations, or other events that interrupted or otherwise affected data collection.</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Compression" sequence="21" startByte="30" startBitInByte="6" startBit="246" lengthInBits="2" dataType="UINT" convertAs="STATE" units="DN" source="-*-" mnemonicLength="11.0">
+				<xtce:LongDescription>Whether/how the data is compressed.</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Byte_Count" sequence="22" startByte="31" startBitInByte="0" startBit="248" lengthInBits="24" dataType="UINT" convertAs="NONE" units="DN" source="-*-" mnemonicLength="10.0">
+				<xtce:LongDescription>Number of bytes in the Data array.  If compressed, this value represents the length of the compressed data.</xtce:LongDescription>
+			</xtce:Parameter>
+			<xtce:Parameter name="Data" sequence="23" startByte="34" startBitInByte="0" startBit="272" lengthInBits="4325376" dataType="BYTE" convertAs="NONE" units="DN" source="-*-" mnemonicLength="4.0">
+				<xtce:LongDescription>Counter Data
+
+Variable Length;
+
+Maximum (based on uncollapsed, uncompressed data, and assuming all counters included):
+
+16 spins x 16 positions x 24 spin-angles x 32 bits x 22 counters = 4,325,376 bits (540,672 bytes)
+
+Nominal (based on current plan for counter selection, collapsing, and compression): 840 bits (105 bytes)
+
+Data format is a series of spin-angle x position x spin number data cubes collapsed per the SCI_LUT Collapse Table selected by the View_ID.  Which counters are included is determined by using the Plan_ID and Plan_Step to index into the SCI_LUT Data Products Hi/Lo tables to find all the counters that are associated with the View_ID.
+
+The collapsed data cubes are also optionally compressed using Lossy and/or Lossless Compression.  Lossy compression is a table-based 24-&gt;8 bit compression applied to each counter value.  Lossless compression uses the LZMA compression algorithm and is applied to the full Data field as a single unit.
+
+Field will additionally be padded in order to meet the requirement of packets being a multiple of 16 bits;  any pad bits will be accounted for in the CCSDS header Length field, but will *not* be included in the Byte_Count field
+
+When this array is too large for a single CCSDS packet, CoDICE will utilize the CCSDS Grouping flags to provide the full data packet over several CCSDS packets.</xtce:LongDescription>
+			</xtce:Parameter>
+		</xtce:ParameterSet>
+	</xtce:TelemetryMetaData>
+</xtce:SpaceSystem>
