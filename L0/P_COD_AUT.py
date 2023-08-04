@@ -1,3 +1,7 @@
+''' This code works and prints a XTCE formatted file,
+but it is not complete. It CANNOT be used to parse the binary data file.
+'''
+
 import pandas as pd
 import xml.etree.ElementTree as ET
 
@@ -5,15 +9,15 @@ ET.register_namespace('xtce', "http://www.omg.org/space")
 
 # Load data from Excel file
 xls = pd.ExcelFile('/Users/gamo6782/Desktop/IMAP/TLM_COD_20230629-110638(update).xlsx')
-sheet_name = "P_COD_LO_SW_ANGULAR_COUNTS"  # Assuming the sheet name is correct
+sheet_name = "P_COD_AUT"  # Assuming the sheet name is correct
 df = xls.parse(sheet_name)
 
 # Fill missing values with '-*-'
-df.fillna('-*-', inplace=True)
+df.fillna('', inplace=True)
 
 # Create the root element
 root = ET.Element("{http://www.omg.org/space}SpaceSystem", nsmap={"xtce": "http://www.omg.org/space"})
-root.attrib["name"] = "P_COD_LO_SW_ANGULAR_COUNTS"
+root.attrib["name"] = "P_COD_AUT"
 
 # Create the Header element and its sub-elements
 header = ET.SubElement(root, "{http://www.omg.org/space}Header")
@@ -125,4 +129,8 @@ tree = ET.ElementTree(root)
 ET.indent(tree, space="\t", level=0)
 
 # Save the XML document to a file
-tree.write("P_COD_LO_SW_ANGULAR_COUNTS.xml", encoding="utf-8", xml_declaration=True)
+tree.write("P_COD_AUT.xml", encoding="utf-8", xml_declaration=True)
+
+
+
+
