@@ -5,10 +5,10 @@ from space_packet_parser import parser, xtcedef
 
 # Define paths
 packet_file = Path('/Users/gamo6782/Desktop/RAW.bin')
-xtce_document = Path('/Users/gamo6782/Desktop/IMAP_xtce/xtce_repo/L0/p_cod_aut_def.xml')
+xtce_document = Path('/L0/p_cod_aut_def.xml')
 
 packet_definition = xtcedef.XtcePacketDefinition(xtce_document)
-my_parser = parser.PacketParser(packet_definition)
+my_parser = parser.PacketParser(packet_definition, 0x460)
 
 with packet_file.open('rb') as binary_data:
     packet_generator = my_parser.generator(binary_data)
@@ -17,5 +17,8 @@ with packet_file.open('rb') as binary_data:
         # Do something with the packet data
         print(packet.header['PKT_APID'])
         print(packet.data)
+
+
+
 
 

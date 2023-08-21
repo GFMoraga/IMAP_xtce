@@ -10,8 +10,8 @@ def test_bin_file_size():
         print(f"The size of the .bin file is: {file_size} bytes")
 
 
-if __name__ == "__main__":
-    test_bin_file_size()
+#if __name__ == "__main__":
+    #test_bin_file_size()
 
 ################################
 

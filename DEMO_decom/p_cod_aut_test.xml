@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<xtce:SpaceSystem xmlns:xtce="http://www.omg.org/space/xtce" nsmap="{'xtce': 'http://www.omg.org/space'}" name="P_COD_AUT">
-	<xtce:Header date="2023-08-08" version="1.0" author="Gabriel Moraga" />
+<xtce:SpaceSystem xmlns:xtce="http://www.omg.org/space" nsmap="{'xtce': 'http://www.omg.org/space'}" name="P_COD_AUT">
+	<xtce:Header date="2023-08-21" version="1.0" author="Gabriel Moraga" />
 	<xtce:TelemetryMetaData>
 		<xtce:ParameterTypeSet>
 			<xtce:IntegerParameterType name="uint0" signed="false">
@@ -137,7 +137,7 @@
 			</xtce:IntegerParameterType>
 		</xtce:ParameterTypeSet>
 		<xtce:ParameterSet>
-			<xtce:Parameter name="VERSION" parameterTypeRef="uint3" >
+			<xtce:Parameter name="VERSION" parameterTypeRef="uint3">
 				<xtce:LongDescription>CCSDS Packet Version Number (always 0)</xtce:LongDescription>
 			</xtce:Parameter>
 			<xtce:Parameter name="TYPE" parameterTypeRef="uint1">
@@ -158,30 +158,29 @@
 			<xtce:Parameter name="PKT_LEN" parameterTypeRef="uint16">
 				<xtce:LongDescription>CCSDS Packet Length (number of bytes after Packet length minus 1)</xtce:LongDescription>
 			</xtce:Parameter>
-			<!-- Start codice science data -->
-			<xtce:Parameter name="SHCOARSE" parameterTypeRef="uint16">
-				<xtce:LongDescription>Coarse time from the secondary header</xtce:LongDescription>
+			<xtce:Parameter name="SHCOARSE" parameterTypeRef="uint32">
+				<xtce:LongDescription>CCSDS Packet Time Stamp (coarse time)</xtce:LongDescription>
 			</xtce:Parameter>
-			<xtce:Parameter name="Spare" parameterTypeRef="uint16">
-				<xtce:LongDescription>Spare</xtce:LongDescription>
+			<xtce:Parameter name="Spare" parameterTypeRef="uint6">
+				<xtce:LongDescription>Spare - required per GI-ICD</xtce:LongDescription>
 			</xtce:Parameter>
 			<xtce:Parameter name="Power_Cycle_Rq" parameterTypeRef="uint1">
-				<xtce:LongDescription>Power cycle request</xtce:LongDescription>
+				<xtce:LongDescription>Power Cycle Request</xtce:LongDescription>
 			</xtce:Parameter>
 			<xtce:Parameter name="Power_Off_Rq" parameterTypeRef="uint1">
-				<xtce:LongDescription>Power off request</xtce:LongDescription>
+				<xtce:LongDescription>Power Off Request</xtce:LongDescription>
 			</xtce:Parameter>
 			<xtce:Parameter name="Heater_Control_Enabled" parameterTypeRef="uint1">
-				<xtce:LongDescription>Heater control enabled</xtce:LongDescription>
+				<xtce:LongDescription>Specifies whether the FSW bang-bang controller for the heaters is enabled.  If the controller is not enabled, both heaters should be OFF.  If control is enabled, heater outputs will vary as the control algorithm determines when to turn them ON or OFF.</xtce:LongDescription>
 			</xtce:Parameter>
 			<xtce:Parameter name="Heater_1_State" parameterTypeRef="uint1">
-				<xtce:LongDescription>Heater 1 state</xtce:LongDescription>
+				<xtce:LongDescription>Current ON/OFF state of the heater 1 output</xtce:LongDescription>
 			</xtce:Parameter>
 			<xtce:Parameter name="Heater_2_State" parameterTypeRef="uint1">
-				<xtce:LongDescription>Heater 2 state</xtce:LongDescription>
+				<xtce:LongDescription>Current ON/OFF state of the heater 2 output</xtce:LongDescription>
 			</xtce:Parameter>
-			<xtce:Parameter name="Spare2" parameterTypeRef="uint10">
-				<xtce:LongDescription>Spare</xtce:LongDescription>
+			<xtce:Parameter name="Spare2" parameterTypeRef="uint5">
+				<xtce:LongDescription>Spare for alignment</xtce:LongDescription>
 			</xtce:Parameter>
 		</xtce:ParameterSet>
 		<xtce:ContainerSet>
@@ -194,16 +193,16 @@
 					<xtce:ParameterRefEntry parameterRef="SEG_FLGS" />
 					<xtce:ParameterRefEntry parameterRef="SRC_SEQ_CTR" />
 					<xtce:ParameterRefEntry parameterRef="PKT_LEN" />
+					<xtce:ParameterRefEntry parameterRef="SHCOARSE" />
 				</xtce:EntryList>
 			</xtce:SequenceContainer>
 			<xtce:SequenceContainer name="CoDICESciencePacket">
 				<xtce:BaseContainer containerRef="CCSDSPacket">
 					<xtce:RestrictionCriteria>
-						<xtce:Comparison parameterRef="PKT_APID" value= "1120" useCalibratedValue="false" />
+						<xtce:Comparison parameterRef="PKT_APID" value="1120" useCalibratedValue="false" />
 					</xtce:RestrictionCriteria>
 				</xtce:BaseContainer>
 				<xtce:EntryList>
-					<xtce:ParameterRefEntry parameterRef="SHCOARSE"/>
 					<xtce:ParameterRefEntry parameterRef="Spare" />
 					<xtce:ParameterRefEntry parameterRef="Power_Cycle_Rq" />
 					<xtce:ParameterRefEntry parameterRef="Power_Off_Rq" />
