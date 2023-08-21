@@ -4,6 +4,8 @@ import xml.etree.ElementTree as ET
 ET.register_namespace('xtce', "http://www.omg.org/space")
 
 # Load data from Excel file
+''' This is important! Use the xls PATH to the file you want to convert to XML.
+Also, make sure the "sheet" name is correct. Case sensitive.'''
 xls = pd.ExcelFile('/Users/gamo6782/Desktop/IMAP/TLM_COD_20230629-110638(update).xlsx')
 sheet_name = "P_COD_AUT"  # Assuming the sheet name is correct
 df = xls.parse(sheet_name)
@@ -91,7 +93,9 @@ comparison.attrib["useCalibratedValue"] = "false"
 codice_science_entry_list = ET.SubElement(codice_science_container, "xtce:EntryList")
 
 # Add ParameterRefEntry elements for CoDICESciencePacket
-# *******************************NEED TO LOOK AT THIS: To pkt specific
+# ******************************* NEED TO LOOK AT THIS: To pkt specific
+''' This will be the list of parameters that will be included in the CoDICE Science Packet after the CCSDS header'''
+
 parameter_refs = ["Spare", "Power_Cycle_Rq", "Power_Off_Rq",
                   "Heater_Control_Enabled", "Heater_1_State", "Heater_2_State", "Spare2"]
 
@@ -117,4 +121,5 @@ tree = ET.ElementTree(root)
 ET.indent(tree, space="\t", level=0)
 
 # Save the XML document to a file
+''' Important! tree.write will write the file, so make sure you use the correct name for the file you want to write.'''
 tree.write("p_cod_aut_test.xml", encoding="utf-8", xml_declaration=True)
